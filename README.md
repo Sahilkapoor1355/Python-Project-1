@@ -1,93 +1,65 @@
 # Python Project 1
 
-# 🐍 Snake, Ladder & Water Game (Python)
+# snake, ladder and water
 
-A fun command-line game built with **Python** that combines the excitement of **Snake & Ladder** with an additional **Water** obstacle. Roll the dice, climb ladders, avoid snakes, and be careful not to fall into the water!
-
----
+A simple and interactive **snake, ladder and water** game built with **Python**. Challenge the computer, make your choice, and see if you can win!
 
 ## 🎮 Features
 
-* 🎲 Random dice rolling
-* 🪜 Ladders help you climb faster
-* 🐍 Snakes pull you down
-* 💧 Water tiles add an extra challenge
-* 👤 Single-player gameplay
-* 🖥️ Simple command-line interface
-* 🐍 Built entirely using Python
+* 🎲 Play against the computer
+* 🤖 Random computer-generated moves
+* 🏆 Instant win, lose, or draw results
+* 💻 Easy-to-use command-line interface
+* 🐍 Built using pure Python
 
----
+## 🛠️ Tech Stack
 
-## 📂 Project Structure
+* Python 3
+* Random Module
 
-```text
-Snake-Ladder-Water/
-│── main.py          # Main game file
-│── README.md        # Project documentation
+### Run the Game
+
+```bash
+python main.py
 ```
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-* Python 3.10 or higher
-
-
 
 ## 🎯 How to Play
 
-1. Start the game.
-2. Press **Enter** to roll the dice.
-3. Move according to the number rolled.
-4. If you land on:
+1. Run the program.
+2. Enter your choice:
 
-   * 🪜 **Ladder:** Move up to a higher position.
-   * 🐍 **Snake:** Slide down to a lower position.
-   * 💧 **Water:** A special penalty is applied (based on the game rules).
-5. Reach the final square before the game ends to win.
+   * ladder
+   * water
+   * Snake
+3. The computer randomly selects its move.
+4. The winner is displayed instantly.
+5. Play as many rounds as you like!
 
----
+## 📷 Sample Output
 
-## 🛠️ Technologies Used
+```text
+Choose (ladder, water, Snake): snake
 
-* Python
-* Random Module
+Computer chose: water
 
----
+🎉 You Win!
+```
 
-## 🔮 Future Improvements
+## 📌 Future Enhancements
 
-* Multiplayer mode
-* GUI using Tkinter or Pygame
-* Sound effects
-* Scoreboard
-* Difficulty levels
-* Save and load game
-* Custom board size
-
----
+* 📊 Scoreboard
+* 🔁 Best of 3 / Best of 5 mode
+* 🖥️ GUI using Tkinter or Pygame
+* 👥 Multiplayer mode
+* 🎵 Sound effects
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-
-1. Fork the repository.
-2. Create a new branch.
-3. Commit your changes.
-4. Push to your branch.
-5. Open a Pull Request.
-
----
-
-## 📜 License
-
-This project is open source and available under the **MIT License**.
-
----
+Contributions are welcome! Feel free to fork the repository, improve the project, and submit a pull request.
 
 ## 👨‍💻 Author
 
 **Sahil Kapoor**
 
-If you like this project, don't forget to ⭐ star the repository!
+⭐ If you found this project helpful, don't forget to **star** the repository!
 
